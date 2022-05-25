@@ -8,6 +8,11 @@ document.write("Hello " + firstName + ", how goes it?");
 // if (this is true) {do this code} <-- CAN BE WRITTEN LIKE THIS BUT...
 
 // NORMALLY WRITTEN LIKE THIS FOR READABILITY
+// if (this is true){
+//    do this code;
+// }
+
+// EXAMPLE:
 // if (firstName == "Kassie"){
 //     document.write("Hiya teacher!")
 // }
@@ -24,7 +29,7 @@ if (firstName == "Kassie"){
 
 let age = prompt("How old are you?");
 if (age == 33) {
-    document.write("You are 33 KASSIE.");
+    document.write("You are as old as Kassie."); // I changed this line from what we had in class, so it would make a little more sense.
 } else {
     document.write("You are " + age + " years old.");
 }
