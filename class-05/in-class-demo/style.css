@@ -1,0 +1,38 @@
+body {
+    background: #8B3AB8;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(241, 241, 157);
+    border: solid 3px black;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(235, 177, 68);
+    padding: 10px;
+    margin-left: 200px;
+}
+
+h1 {
+    float: left;
+    width: 200px;
+    margin-right: 200px;
+}
+
+
+section {
+    background-color: white;
+}
+
+#top-section {
+    background-color: pink;
+    color: green;
+}
+
+.poster-section {
+    list-style: none;
+    display: inline-block;
+}
